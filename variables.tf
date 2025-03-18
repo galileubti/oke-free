@@ -2,7 +2,7 @@
 
 variable "compartment_name" {
   type    = string
-  default = "k8s"
+  default = "k8sprd"
 }
 
 variable "region" {
