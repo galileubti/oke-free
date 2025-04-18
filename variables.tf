@@ -29,15 +29,15 @@ variable "memory_in_gbs_per_node" {
 
 variable "image_id" {
   type    = string
-  default = "ocid1.image.oc1.iad.aaaaaaaahh36qvuhu32nmkh7g6cvjdo23cyq7xpptblcxpehl225valuuh6q"
+  default = "ocid1.image.oc1.iad.aaaaaaaarkexs7ijdqffxvy6dyzepizvuzm25zijwp2nkv3nifbcvywzufsq"
 }
-# Link to a list of available images (Be sure to select the correct region and CPU architecture. We are using Oracle-Linux-8.10-aarch64-2024.11.30-0-OKE-1.29.10-754
+# Link to a list of available images (Be sure to select the correct region and CPU architecture. We are using Oracle-Linux-8.10-aarch64-2024.11.30-0-OKE-1.31.1-754
 # https://docs.oracle.com/en-us/iaas/images/image/d4c060a5-041c-477b-8226-2d25d91c4ffb/
 
 # ----------> Cluster <----------
 variable "k8s_version" {
   type    = string
-  default = "v1.29.10"
+  default = "v1.31.1"
 }
 
 variable "node_size" {
