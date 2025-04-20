@@ -2,7 +2,7 @@
 
 variable "compartment_name" {
   type    = string
-  default = "k8sprd"
+  default = "k8sprd1"
 }
 
 variable "region" {
@@ -47,19 +47,19 @@ variable "node_size" {
 
 variable "cluster_name" {
   type    = string
-  default = "k8s-cluster"
+  default = "k8s-cluster1"
 }
 
 # ----------> Network <----------
 
 variable "vcn_name" {
   type    = string
-  default = "k8s-vcn"
+  default = "k8s-vcn1"
 }
 
 variable "vcn_dns_label" {
   type    = string
-  default = "k8svcn"
+  default = "k8svcn1"
 }
 
 # ----------> Load Balancer <----------
